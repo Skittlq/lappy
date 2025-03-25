@@ -76,7 +76,6 @@ def load_conversation():
         
     return []
 
-
 def save_conversation(conversation):
     """Saves conversation history to a file."""
     with open(CONVO_FILE, "w", encoding="utf-8") as f:
